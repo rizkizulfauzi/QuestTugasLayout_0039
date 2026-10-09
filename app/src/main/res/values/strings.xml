@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">PrakTugas</string>
+    <string name="app_name">Pertemuan4tugas</string>
+    <string name="prodi">Teknologi Informasi</string>
+    <string name="univ">Universitas Muhammadiyah Yogyakarta</string>
+    <string name="copy">Copyright, 2026</string>
+    <string name="desc_logo">Logo Universitas Muhammadiyah Yogyakarta</string>
+
+
 </resources>
