@@ -5,5 +5,19 @@
     <string name="copy">Copyright, 2026</string>
     <string name="desc_logo">Logo Universitas Muhammadiyah Yogyakarta</string>
 
+    <string name="nama_1">Kurniawan Megadahsyat</string>
+    <string name="telp_1">081728912151</string>
+    <string name="alamat_1">Jakal, Sleman</string>
 
+    <string name="nama_2">Joe Biden</string>
+    <string name="telp_2">085436874190</string>
+    <string name="alamat_2">Kasihan, Bantul</string>
+
+    <string name="nama_3">Romli Djahad</string>
+    <string name="telp_3">085436874190</string>
+    <string name="alamat_3">Depok, Sleman</string>
+
+    <string name="nama_4">Dylan Pross</string>
+    <string name="telp_4">085436874190</string>
+    <string name="alamat_4">Gamping, Sleman</string>
 </resources>
