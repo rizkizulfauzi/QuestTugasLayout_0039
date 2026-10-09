@@ -4,6 +4,7 @@ import android.graphics.fonts.FontFamily
 import androidx.annotation.ColorRes
 import androidx.annotation.DimenRes
 import androidx.annotation.StringRes
+import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
@@ -15,6 +16,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.res.dimensionResource
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.TextUnit
 import androidx.compose.ui.unit.sp
@@ -40,9 +42,27 @@ fun KartuProfil(
             .padding(dimensionResource(R.dimen.padding_kartu)),
         shape = RoundedCornerShape(dimensionResource(R.dimen.radius_kartu)),
         colors = CardDefaults.cardColors(containerColor = colorResource(warnaKartu))
-    ){
+    ) {
         Row(
             modifier = Modifier.fillMaxWidth(),
             verticalAlignment = Alignment.CenterVertically
-        ){
+        ) {
+            LogoUmy()
+            Column(
+                modifier = Modifier
+                    .weight(1f)
+                    .padding(horizontal = dimensionResource(R.dimen.jarak_konten))
+            ) {
+                Text(
+                    text = stringResource(nama),
+                    fontSize = spResource(ukuranNama),
+                    fontFamily = fontNama,
+                    fontWeight = bobotNama,
+                    color = colorResource(R.color.teks_nama)
+                )
+            }
         }
+    }
+
+}
+
