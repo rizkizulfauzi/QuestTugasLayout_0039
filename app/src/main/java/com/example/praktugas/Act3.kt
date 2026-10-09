@@ -1,6 +1,6 @@
 package com.example.praktugas
 
-import android.graphics.fonts.FontFamily
+import androidx.compose.ui.text.font.FontFamily
 import androidx.annotation.ColorRes
 import androidx.annotation.DimenRes
 import androidx.annotation.StringRes
@@ -11,6 +11,7 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
+import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -60,9 +61,16 @@ fun KartuProfil(
                     fontWeight = bobotNama,
                     color = colorResource(R.color.teks_nama)
                 )
+                if (telepon != null) {
+                    Text(
+                        text = stringResource(telepon),
+                        fontSize = spResource(R.dimen.font_detail),
+                        color = colorResource(R.color.teks_telp),
+                        modifier = Modifier.padding(top = dimensionResource(R.dimen.jarak_teks))
+                    )
+                }
             }
         }
     }
-
 }
 
