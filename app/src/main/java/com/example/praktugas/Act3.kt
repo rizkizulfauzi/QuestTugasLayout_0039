@@ -128,6 +128,27 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
             fontNama = FontFamily.Cursive,
             bobotNama = FontWeight.Normal
         )
+        KartuProfil(
+            nama = R.string.nama_2,
+            telepon = R.string.telp_2,
+            alamat = R.string.alamat_2,
+            warnaKartu = R.color.card_1_bg,
+            warnaAlamat = R.color.teks_alamat_kuning
+        )
+        KartuProfil(
+            nama = R.string.nama_3,
+            telepon = R.string.telp_3,
+            alamat = R.string.alamat_3,
+            warnaKartu = R.color.card_2_bg,
+            warnaAlamat = R.color.teks_alamat_putih
+        )
+        KartuProfil(
+            nama = R.string.nama_4,
+            telepon = R.string.telp_4,
+            alamat = R.string.alamat_4,
+            warnaKartu = R.color.card_3_bg,
+            warnaAlamat = R.color.teks_alamat_putih
+        )
     }
 
 }
