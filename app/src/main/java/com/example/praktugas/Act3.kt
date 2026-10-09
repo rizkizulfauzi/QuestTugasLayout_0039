@@ -76,6 +76,7 @@ fun KartuProfil(
                     modifier = Modifier.padding(top = dimensionResource(R.dimen.jarak_teks))
                 )
             }
+            LogoUmy()
         }
     }
 }
