@@ -10,5 +10,10 @@
     <dimen name="padding_footer">50dp</dimen>
     <dimen name="jarak_teks">4dp</dimen>
 
-
+    <dimen name="font_prodi">35sp</dimen>
+    <dimen name="font_univ">22sp</dimen>
+    <dimen name="font_nama">24sp</dimen>
+    <dimen name="font_nama_cursive">30sp</dimen>
+    <dimen name="font_detail">16sp</dimen>
+    <dimen name="font_footer">14sp</dimen>
 </resources>
