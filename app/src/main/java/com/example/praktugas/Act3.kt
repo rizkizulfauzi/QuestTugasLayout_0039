@@ -7,8 +7,10 @@ import androidx.annotation.StringRes
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.shape.RoundedCornerShape
@@ -112,6 +114,19 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
         Text(
             text = stringResource(R.string.univ),
             fontSize = spResource(R.dimen.font_univ)
+        )
+
+        Spacer(modifier = Modifier.height(dimensionResource(R.dimen.jarak_judul)))
+
+        KartuProfil(
+            nama = R.string.nama_1,
+            telepon = R.string.telp_1,
+            alamat = R.string.alamat_1,
+            warnaKartu = R.color.card_0_bg,
+            warnaAlamat = R.color.teks_alamat_kuning,
+            ukuranNama = R.dimen.font_nama_cursive,
+            fontNama = FontFamily.Cursive,
+            bobotNama = FontWeight.Normal
         )
     }
 
