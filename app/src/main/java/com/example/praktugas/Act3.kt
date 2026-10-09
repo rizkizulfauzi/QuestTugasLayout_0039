@@ -69,6 +69,12 @@ fun KartuProfil(
                         modifier = Modifier.padding(top = dimensionResource(R.dimen.jarak_teks))
                     )
                 }
+                Text(
+                    text = stringResource(alamat),
+                    fontSize = spResource(R.dimen.font_detail),
+                    color = colorResource(warnaAlamat),
+                    modifier = Modifier.padding(top = dimensionResource(R.dimen.jarak_teks))
+                )
             }
         }
     }
